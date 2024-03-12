@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Angkor&family=Josefin+Sans:ital,wght@0,350;1,350&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -8,10 +10,12 @@
     --azul: #274C77;
     --ciano: #6096BA;
     --marinho: #A3CEF1;
+    --fonte-texto: "Josefin Sans", sans-serif;
+    --fonte-titulo: "Angkor", serif;
 }
 .cabecalho{
-    background-color: #231a5b;
-    color:white;
+    background-color: var(--azul);
+    color: var(--branco);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -25,20 +29,22 @@
 }
 .cabecalho-lista-link{
     text-decoration: none;
-    color: white;
+    color: var(--marinho);
     margin-right: 1.5em;    
     font-size: 1.5em;
 }
 .escola{
-    background-color: white;
-    color: black;
+    background-color: var(--ciano);
+    color: (var(--branco));
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 32px 0;
+    font-family: var(--fonte-texto);
 }
 .escola-texto-titulo{
     padding: 24px 0;
+    font-family: var(--fonte-titulo);
 }.escola-imagem{
     width: 30%;
 }
