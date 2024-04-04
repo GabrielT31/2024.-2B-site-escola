@@ -47,4 +47,13 @@
     font-family: var(--fonte-titulo);
 }.escola-imagem{
     width: 30%;
+}.estudante-div-fotos{
+    width: 25%
+    ;
+}
+.estudante-div-icone{
+    width: 30px;
+}
+.estudante-div{
+    text-align: center;
 }
