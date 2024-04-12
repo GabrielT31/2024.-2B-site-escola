@@ -72,7 +72,7 @@
 }
 
 .estudante {
-    background: linear-gradient(#E7ECEF, #6096BA)
+    background: linear-gradient(#def3f3,#2682fa);
 }
 
 .estudante-titulo {
@@ -100,7 +100,7 @@
 }
 
 .rodape {
-    background-color: aquamarine;
+    background-color: blue;
     text-align: center;
 }
 
